@@ -1,0 +1,20 @@
+[c:\program files (x86)\webex\webex\meetings]
+PostUpdateTargetVersion=
+[c:\users\admin\appdata\local\webex\webex\meetings]
+ClientBuildVersion=41.2.2.16
+GpcPhpHash=41.2.2.16
+FileList=C:\Users\admin\AppData\LocalLow\WebEx\WebEx\meetings\41.2.2.16\gpc.json
+IsTSP=0
+ClientReady=2
+IncompatibleVersions=^3[0-8] , ^39\.[0-7]\., ^40\.[5-9]\., ^40\.1[0-2]\.
+AtgpcextVersion=10041, 2, 2021, 121
+PostUpdateTargetVersion=
+GpcPhpCache0=41.2.2.16,C:\Users\admin\AppData\LocalLow\WebEx\WebEx\meetings\41.2.2.16\gpc.json
+[c:\users\admin\appdata\local\webex\webex\meetings_01]
+ClientBuildVersion=41.1.3.11
+GpcPhpHash=41.1.3.11
+FileList=C:\Users\admin\AppData\LocalLow\WebEx\WebEx\meetings_01\41.1.3.11\gpc.json
+IsTSP=0
+ClientReady=2
+IncompatibleVersions=^3[0-8] , ^39\.[0-7]\., ^40\.[5-9]\., ^40\.1[0-2]\.
+AtgpcextVersion=10041,

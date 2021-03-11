@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="it" Language="1040" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] Setup</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">Benvenuto</String>
+  <String Id="InstallMessage">Setup installerà [WixBundleName] sul tuo computer. Installa per continuare, Opzioni per scegliere la directory or Chiudi per uscire.</String>
+  <String Id="InstallVersion">Vers. [WixBundleVersion]</String>
+  <String Id="WelcomeText">Grazie per aver scelto Disk Drill, procedere con l'install.?</String>
+
+  <String Id="ConfirmCancelMessage">Sei sicuro di voler annullare?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">Vers. Prec.</String>
+  <String Id="HelpHeader">Aiuto</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;Chiudi</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;term. licenza&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">Io &amp;Accetto i termini e cond. di licenza</String>
+  <String Id="InstallOptionsButton">&amp;Opzioni</String>
+  <String Id="InstallInstallButton">&amp;Instal.</String>
+  <String Id="InstallCloseButton">&amp;Chiudi</String>
+  <String Id="OptionsHeader">Opzioni Setup</String>
+  <String Id="OptionsLocationLabel">Posiz. Install.:</String>
+  <String Id="OptionsBrowseButton">&amp;Sfogl.</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Annulla</String>
+  <String Id="ProgressHeader">Progres. Setup</String>
+  <String Id="ProgressLabel">Elaboro:</String>
+  <String Id="OverallProgressPackageText">Inizializzo...</String>
+  <String Id="ProgressCancelButton">&amp;Annulla</String>
+  <String Id="ModifyHeader">Puoi ora modificare l'installaz.</String>
+  <String Id="ModifyRepairButton">&amp;Ripara</String>
+  <String Id="ModifyUninstallButton">&amp;Rimuovi</String>
+  <String Id="ModifyCloseButton">&amp;Chiudi</String>
+  <String Id="SuccessRepairHeader">Riparazione Riuscita</String>
+  <String Id="SuccessUninstallHeader">Rimozione Riuscita</String>
+  <String Id="SuccessInstallHeader">Installazione Riuscita</String> 
+  <String Id="SuccessHeader">Setup Riuscito</String>	
+  <String Id="SuccessLaunchButton">&amp;Lancia</String>
+  <String Id="SuccessRestartText">Devi riavviare il computer prima di poter usare il software.</String>
+  <String Id="SuccessRestartButton">&amp;Riavvia</String>
+  <String Id="SuccessCloseButton">&amp;Chiudi</String>
+  <String Id="FailureHeader">Setup Fallito</String>
+  <String Id="FailureInstallHeader">Setup Fallito</String>
+  <String Id="FailureUninstallHeader">Rimoz. Fallita</String>
+  <String Id="FailureRepairHeader">Rip. Fallita</String> 
+  <String Id="FailureHyperlinkLogText">Dei problemi han fatto fallire il setup. Si prega di risolvere i problemi e riprovare. Per altre informazioni vedi il &lt;a href="#"&gt;file log&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">Devi riavviare il computer per completare il rollback del software.</String>
+  <String Id="FailureRestartButton">&amp;Riavvia</String>
+  <String Id="FailureCloseButton">&amp;Chiudi</String>
+  <String Id="FilesInUseHeader">File In Uso</String>
+  <String Id="FilesInUseLabel">Le applicazioni seguenti usano file che vanno aggiornati:</String>
+  <String Id="FilesInUseCloseRadioButton">Chiudi le &amp;applicazioni e prova a riaprirle.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;Non chiudere le applicazioni. Riavvio poi necessario.</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;Annulla</String>
+  <String Id="ErrorFailNoActionReboot">Nessuna azione effettuata per riavvio necessario.</String>
+  <String Id="ShareAnalytics">Condividi info anonime con CleverFiles</String>
+</WixLocalization>

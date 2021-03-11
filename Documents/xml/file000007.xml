@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="pl" Language="1045" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">Inst. [WixBundleName]</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">Witaj</String>
+  <String Id="InstallMessage">Instalator zainstaluje [WixBundleName] na Twoim komputerze. Kliknij Instaluj, aby kontynuować, Opcje, aby wybrać katalog lub Zamknij.</String>
+  <String Id="InstallVersion">Wersja [WixBundleVersion]</String>
+  <String Id="WelcomeText">Dziękujemy za wybranie Disk Drill, kontynuować instalację?</String>
+
+  <String Id="ConfirmCancelMessage">Czy na pewno chcesz zrezygnować?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">Poprzedn. wersja</String>
+  <String Id="HelpHeader">Pomoc</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;Zamknij</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;warunki lic.&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">&amp;zgadzam się na warunki licencji</String>
+  <String Id="InstallOptionsButton">&amp;Opcje</String>
+  <String Id="InstallInstallButton">&amp;Inst.</String>
+  <String Id="InstallCloseButton">&amp;Zamknij</String>
+  <String Id="OptionsHeader">Opcje inst.</String>
+  <String Id="OptionsLocationLabel">Lokalizacja inst:</String>
+  <String Id="OptionsBrowseButton">&amp;Przegl.</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Anuluj</String>
+  <String Id="ProgressHeader">Postęp inst.</String>
+  <String Id="ProgressLabel">Przetwarz.:</String>
+  <String Id="OverallProgressPackageText">Inicjowanie...</String>
+  <String Id="ProgressCancelButton">&amp;Anuluj</String>
+  <String Id="ModifyHeader">Teraz możesz zmodyf. konfig.</String>
+  <String Id="ModifyRepairButton">&amp;Napraw</String>
+  <String Id="ModifyUninstallButton">&amp;Odinstal.</String>
+  <String Id="ModifyCloseButton">&amp;Zamknij</String>
+  <String Id="SuccessRepairHeader">Naprawa zakończona pomyślnie</String>
+  <String Id="SuccessUninstallHeader">Odinstal. zakończone pomyślnie</String>
+  <String Id="SuccessInstallHeader">Instalacja zakończona pomyślnie</String> 
+  <String Id="SuccessHeader">Konf. zakończona</String>	
+  <String Id="SuccessLaunchButton">&amp;Otwórz</String>
+  <String Id="SuccessRestartText">Zrestartuj komputer, przed uruchomieniem oprogramowania.</String>
+  <String Id="SuccessRestartButton">&amp;Restart</String>
+  <String Id="SuccessCloseButton">&amp;Zamknij</String>
+  <String Id="FailureHeader">Błąd inst.</String>
+  <String Id="FailureInstallHeader">Błąd inst.</String>
+  <String Id="FailureUninstallHeader">Błąd odinstal.</String>
+  <String Id="FailureRepairHeader">Błąd naprawy</String> 
+  <String Id="FailureHyperlinkLogText">Jeden lub więcej probl. spowod. błąd instal. Napraw probl. i spróbuj ponownie. Po więcej inf., zobacz &lt;a href="#"&gt;plik dziennika&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">Musisz zrestartować komputer, aby ukończyć cofnięcie zmian w oprogram.</String>
+  <String Id="FailureRestartButton">&amp;Restart</String>
+  <String Id="FailureCloseButton">&amp;Zamknij</String>
+  <String Id="FilesInUseHeader">Pliki w użyciu</String>
+  <String Id="FilesInUseLabel">Następujące aplikacje używają plików, które wymagają aktualizacji:</String>
+  <String Id="FilesInUseCloseRadioButton">Zamknij &amp;aplikacje i spróbuj je zrestarować.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;Nie zamykaj aplik. Wymagane będzie ponow. uruchom.</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;Anuluj</String>
+  <String Id="ErrorFailNoActionReboot">Nie podjęto działań, wymagany jest restart systemu.</String>
+  <String Id="ShareAnalytics">Udost. CleverFiles anonim. inf. o aplik.</String>
+</WixLocalization>

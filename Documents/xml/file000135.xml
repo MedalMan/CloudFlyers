@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientConfiguration xmlns="http://schemas.microsoft.com/XblWinClient/2012/03" version="1">
+    <targetedClient>XblWinClient</targetedClient >                                 
+    <rights>Copyright (c) Microsoft Corporation. All rights reserved.</rights>
+    <configuration name="Playback" minBuild="16122.1018">
+        <property name="UseAdaptiveMediaSourcePercent" value="50" type="int32"/>
+        <property name="UseDashContentForMBRSourcePercent" value="100" type="int32"/>
+    </configuration>
+    <configuration name="Playback" minBuild="16122.1018" maxBuild="17032.1033">
+        <property name="UseDashContentForMBRSourcePercentBeforeRS2" value="0" type="int32"/>
+    </configuration>
+    <configuration name="Playback" minBuild="17032.1034">
+        <property name="UseDashContentForMBRSourcePercentBeforeRS2" value="100" type="int32"/>
+    </configuration>
+    <configuration name="Groveler" minBuild="17063.0" maxBuild="17082.9999">
+        <property name="IgnorePlaceholderFiles" type="boolean" value="false" />
+    </configuration>
+    <configuration name="Groveler" minBuild="17092.0">
+        <property name="IgnorePlaceholderFiles" type="clearOverride" />
+    </configuration>
+    <configuration name="Video">
+      <property name="VideoCloudCollectionEnabled" type="clearOverride" />
+    </configuration>
+	<configuration name="Features">
+		<property name="MAEnabled" type="string" value="ALL"/>
+	</configuration>
+</clientConfiguration> 

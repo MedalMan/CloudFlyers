@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="ar" Language="1025" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption"> الإعداد[WixBundleName]</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">أهلا بك</String>
+  <String Id="InstallMessage">سيقوم برنامج الإعداد بتثبيت [WixBundleName] على جهاز الكمبيوتر الخاص بك. انقر فوق تثبيت للمتابعة،أو خيارات لتعيين دليل التثبيت أو إغلاق للخروج.</String>
+  <String Id="InstallVersion">الإصدار [WixBundleVersion]</String>
+  <String Id="WelcomeText">تابع التثبيت؟ ,Disk Drill شكرا لاختيارك</String>
+
+  <String Id="ConfirmCancelMessage">هل أنت متأكد أنك تريد الإلغاء؟</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">إصدار سابق</String>
+  <String Id="HelpHeader">تعليمات الإعداد</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;أغلاق</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;شروط الترخيص&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">أوافق &amp;على بنود وشروط الترخيص</String>
+  <String Id="InstallOptionsButton">&amp;خيارات</String>
+  <String Id="InstallInstallButton">&amp;التثبيت</String>
+  <String Id="InstallCloseButton">&amp;أغلاق</String>
+  <String Id="OptionsHeader">خيارات الإعداد</String>
+  <String Id="OptionsLocationLabel">:موقع التثبيت</String>
+  <String Id="OptionsBrowseButton">&amp;تصفح</String>
+  <String Id="OptionsOkButton">&amp;موافق</String>
+  <String Id="OptionsCancelButton">&amp;إلغاء</String>
+  <String Id="ProgressHeader">تقدم الاعداد</String>
+  <String Id="ProgressLabel">معالجة:</String>
+  <String Id="OverallProgressPackageText">جار تهيئة...</String>
+  <String Id="ProgressCancelButton">&amp;إلغاء</String>
+  <String Id="ModifyHeader">يمكنك تعديل الإعداد الآن.</String>
+  <String Id="ModifyRepairButton">&amp;أصلح</String>
+  <String Id="ModifyUninstallButton">&amp;الغاء التثبيت</String>
+  <String Id="ModifyCloseButton">&amp;أغلاق</String>
+  <String Id="SuccessRepairHeader">تم الإصلاح بنجاح</String>
+  <String Id="SuccessUninstallHeader">تم إلغاء التثبيت بنجاح</String>
+  <String Id="SuccessInstallHeader">تم التثبيت بنجاح</String> 
+  <String Id="SuccessHeader">تم الإعداد بنجاح</String>	
+  <String Id="SuccessLaunchButton">&amp;أطلق</String>
+  <String Id="SuccessRestartText">يجب إعادة تشغيل الكمبيوتر قبل أن تتمكن من استخدام البرنامج.</String>
+  <String Id="SuccessRestartButton">&amp;إعادة تشغيل</String>
+  <String Id="SuccessCloseButton">&amp;أغلاق</String>
+  <String Id="FailureHeader">فشل الإعداد</String>
+  <String Id="FailureInstallHeader">فشل الإعداد</String>
+  <String Id="FailureUninstallHeader">فشل إلغاء التثبيت</String>
+  <String Id="FailureRepairHeader">فشل الإصلاح</String> 
+  <String Id="FailureHyperlinkLogText">تسببت مشكلة أو أكثر في فشل الإعداد. يرجى إصلاح المشكلات ثم إعادة محاولة الإعداد. لمزيد من المعلومات ، راجع &lt;a href="#"&gt;ملف التسجيل&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">يجب إعادة تشغيل الكمبيوتر لإكمال التراجع عن البرنامج.</String>
+  <String Id="FailureRestartButton">&amp;إعادة تشغيل</String>
+  <String Id="FailureCloseButton">&amp;أغلاق</String>
+  <String Id="FilesInUseHeader">الملفات قيد الاستخدام</String>
+  <String Id="FilesInUseLabel">تستخدم التطبيقات التالية الملفات التي تحتاج إلى تحديث:</String>
+  <String Id="FilesInUseCloseRadioButton">أغلق التطبيقات &amp;وحاول إعادة تشغيلها.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;لا تغلق التطبيقات. ستحتاج إلى إعادة تشغيل الكمبيوتر.</String>
+  <String Id="FilesInUseOkButton">&amp;موافق</String>
+  <String Id="FilesInUseCancelButton">&amp;إلغاء</String>
+  <String Id="ErrorFailNoActionReboot">لم يتم اتخاذ أي إجراء لأن إعادة تشغيل النظام مطلوبة.</String>
+  <String Id="ShareAnalytics">شارك معلومات التطبيق المجهول مع CleverFiles</String>
+</WixLocalization>

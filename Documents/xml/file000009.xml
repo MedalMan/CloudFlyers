@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="ru" Language="25" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">Установка [WixBundleName]</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">Добро пожаловать</String>
+  <String Id="InstallMessage">[WixBundleName] будет установлен на Ваш компьютер. Нажмите "Установить", чтобы продолжить, "Опции", чтобы выбрать папку для установки, или "Закрыть", чтобы выйти из инсталлятора.</String>
+  <String Id="InstallVersion">Версия [WixBundleVersion]</String>
+  <String Id="WelcomeText">Мы очень рады, что Вы выбрали Disk Drill! Продолжить установку?</String>
+
+  <String Id="ConfirmCancelMessage">Вы уверены, что хотите отменить установку?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">Предыдущая версия</String>
+  <String Id="HelpHeader">Помощь с установкой</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;Закрыть</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;лицензионное соглашение&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">Я &amp;принимаю условия использования лицензии</String>
+  <String Id="InstallOptionsButton">&amp;Опции</String>
+  <String Id="InstallInstallButton">&amp;Установ.</String>
+  <String Id="InstallCloseButton">&amp;Закрыть</String>
+  <String Id="OptionsHeader">Опции установки</String>
+  <String Id="OptionsLocationLabel">Установить в:</String>
+  <String Id="OptionsBrowseButton">&amp;Выбрать</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Отмена</String>
+  <String Id="ProgressHeader">Прогресс установки</String>
+  <String Id="ProgressLabel">Обработка:</String>
+  <String Id="OverallProgressPackageText">Инициализация...</String>
+  <String Id="ProgressCancelButton">&amp;Отмена</String>
+  <String Id="ModifyHeader">Вы можете модифицировать настройки установки.</String>
+  <String Id="ModifyRepairButton">&amp;Чинить</String>
+  <String Id="ModifyUninstallButton">&amp;Удалить</String>
+  <String Id="ModifyCloseButton">&amp;Закрыть</String>
+  <String Id="SuccessRepairHeader">Инсталл исправлен</String>
+  <String Id="SuccessUninstallHeader">Деинсталляция прошла успешно</String>
+  <String Id="SuccessInstallHeader">Установка прошла успешно</String> 
+  <String Id="SuccessHeader">Установка успешна</String>	
+  <String Id="SuccessLaunchButton">&amp;Запустить</String>
+  <String Id="SuccessRestartText">Чтобы начать пользоваться приложением, необходимо перезагрузить компьютер.</String>
+  <String Id="SuccessRestartButton">&amp;Ребут</String>
+  <String Id="SuccessCloseButton">&amp;Закрыть</String>
+  <String Id="FailureHeader">Установка не удалась</String>
+  <String Id="FailureInstallHeader">Установка не удалась</String>
+  <String Id="FailureUninstallHeader">Деинсталляция не удалась</String>
+  <String Id="FailureRepairHeader">Не удалось исправить</String> 
+  <String Id="FailureHyperlinkLogText">Установка не удалась. Пожалуйста, устраните проблемы и попробуйте снова. Больше деталей в &lt;a href="#"&gt;логе&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">Чтобы откатиться к предыдущей версии, необходимо перезапустить компьютер.</String>
+  <String Id="FailureRestartButton">&amp;Ребут</String>
+  <String Id="FailureCloseButton">&amp;Закрыть</String>
+  <String Id="FilesInUseHeader">Файлы используются другими приложениями</String>
+  <String Id="FilesInUseLabel">Файлы, которые нужно обновить, используются следующими приложениями:</String>
+  <String Id="FilesInUseCloseRadioButton">Закройте &amp;приложения и попробуйте их перезапустить.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;Не закрывайте приложения. Будет нужна перезагрузка системы.</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;Отмена</String>
+  <String Id="ErrorFailNoActionReboot">Никаких действий предпринято не было, так как необходима перезагрузка системы.</String>
+  <String Id="ShareAnalytics">Отправлять статистику в CleverFiles</String>
+</WixLocalization>

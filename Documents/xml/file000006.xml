@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="nl" Language="1043" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] Setup</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">Welkom</String>
+  <String Id="InstallMessage">Setup zal [WixBundleName] installeren. Klik Install voor verdergaan, Options om doelmap te veranderen of Close om te sluiten.</String>
+  <String Id="InstallVersion">Versie [WixBundleVersion]</String>
+  <String Id="WelcomeText">Bedankt om Disk Drill te kiezen, doorgaan met installatie?</String>
+
+  <String Id="ConfirmCancelMessage">Zeker dat je wil annuleren?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">Vorige versie</String>
+  <String Id="HelpHeader">Setup Help</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;Sluit</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;Voorwaarden&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">Ik &amp; ga akkoord met de algemene voorw.</String>
+  <String Id="InstallOptionsButton">&amp;Opties</String>
+  <String Id="InstallInstallButton">&amp;Install</String>
+  <String Id="InstallCloseButton">&amp;Sluit</String>
+  <String Id="OptionsHeader">Setup Opties</String>
+  <String Id="OptionsLocationLabel">Install locatie:</String>
+  <String Id="OptionsBrowseButton">&amp;Browse</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Annuleer</String>
+  <String Id="ProgressHeader">Setup Voortg.</String>
+  <String Id="ProgressLabel">Verwerken:</String>
+  <String Id="OverallProgressPackageText">Initialis...</String>
+  <String Id="ProgressCancelButton">&amp;Annuleer</String>
+  <String Id="ModifyHeader">U kan uw setup nu aanpassen.</String>
+  <String Id="ModifyRepairButton">&amp;Repar.</String>
+  <String Id="ModifyUninstallButton">&amp;Uninstall</String>
+  <String Id="ModifyCloseButton">&amp;Sluit</String>
+  <String Id="SuccessRepairHeader">Reparatie Succesvol</String>
+  <String Id="SuccessUninstallHeader">Uninstall Succesvol</String>
+  <String Id="SuccessInstallHeader">Installatie Succesvol</String> 
+  <String Id="SuccessHeader">Setup Succesvol</String>	
+  <String Id="SuccessLaunchButton">&amp;Start</String>
+  <String Id="SuccessRestartText">U moet uw pc herstarten voor gebruik van de software.</String>
+  <String Id="SuccessRestartButton">&amp;Restart</String>
+  <String Id="SuccessCloseButton">&amp;Sluit</String>
+  <String Id="FailureHeader">Setup Faal</String>
+  <String Id="FailureInstallHeader">Setup Faal</String>
+  <String Id="FailureUninstallHeader">Uninstall Faal</String>
+  <String Id="FailureRepairHeader">Repar. Faal</String> 
+  <String Id="FailureHyperlinkLogText">Eén of meer problemen deden de setup mislukken. Los problemen op en herstart setup. Voor meer info zie de &lt;a href="#"&gt;log file&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">U moet uw pc herstarten om de rollback van de software te voltooien.</String>
+  <String Id="FailureRestartButton">&amp;Restart</String>
+  <String Id="FailureCloseButton">&amp;Sluit</String>
+  <String Id="FilesInUseHeader">In Gebruik</String>
+  <String Id="FilesInUseLabel">Deze applicaties gebruiken bestanden die geüpdatet moeten w.:</String>
+  <String Id="FilesInUseCloseRadioButton">Sluit de &amp;applicaties en probeer ze te herstarten.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;Applicaties niet sluiten. Reboot nodig.</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;Annuleer</String>
+  <String Id="ErrorFailNoActionReboot">Er is geen actie ondernomen, reboot nodig.</String>
+  <String Id="ShareAnalytics">Deel anonieme app-info met CleveFiles</String>
+</WixLocalization>

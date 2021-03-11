@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="https://support.microsoft.com/help/4592438" creationTimeStamp="2020-12-02T17:09:14Z" lastUpdateTimeStamp="2020-12-02T17:09:14Z">
+  <assemblyIdentity name="WinPE-Setup-Package-Wrapper" version="10.0.19041.292" processorArchitecture="amd64" language="ro-RO" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="KB4592438" releaseType="Security Update" restart="possible">
+    <parent revisionCompare="GE" integrate="standalone" disposition="detect">
+      <assemblyIdentity name="WinPE-Setup-Package" version="10.0.19041.1" processorArchitecture="amd64" language="ro-RO" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35" />
+    <update name="WinPE-Setup-Package_ro-RO_PACKAGE">
+      <package integrate="liberate">
+        <assemblyIdentity name="WinPE-Setup-Package" version="10.0.19041.292" processorArchitecture="amd64" language="ro-RO" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+  </package>
+</assembly>

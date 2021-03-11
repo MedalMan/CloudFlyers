@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+<html lang="en-US">
+<head>
+<meta name='robots' content='noindex,nofollow'>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name='format-detection' content='telephone=no'>
+<meta name='slack-app-id' content='A5P5FDK33'>
+<meta name="description" content="14"><link rel="shortcut icon" href="/favicont29.ico" type="image/x-icon">
+
+
+<link rel="stylesheet" href="https&#58;&#47;&#47;cloudflyers.my.webex.com&#47;wbxadmin&#47;siteadmin&#47;html&#47;css&#47;admin&#47;admin_main.css&#63;ver&#61;2224661606" type="text/css">
+<link rel="stylesheet" href="https&#58;&#47;&#47;cloudflyers.my.webex.com&#47;wbxadmin&#47;siteadmin&#47;html&#47;css&#47;admin&#47;admin_atlas.css&#63;ver&#61;3447647757" type="text/css">
+<script type="text/javascript" src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/js/jquery/jquery.js?ver=2419456495"></script>
+<script type="text/javascript" src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/js/jqueryui/jquery-ui.min.js?ver=3894428447"></script>
+<script type="text/javascript" src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/js/jqueryui/jquery-ui.i18n.js?ver=873834022"></script>
+<script type="text/javascript" src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/js/nbrmanage/nbrmanage.js?ver=1807441852"></script>
+<link rel="stylesheet" type="text/css" href="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/css/admin/jquery-ui.min.css?ver=980614018">
+<link rel="stylesheet" type="text/css" href="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/css/nbrmanage/nbrmanage.css?ver=1609221808">
+<meta http-equiv="pragma" content="no-cache">
+<title>Recording Management</title>
+</head>
+<body class="PageBgColor">
+<TABLE  align=left width=100% border=0 CELLSPACING=0 CELLPADDING=0 class="TblBgColor"><TR><TD colspan=3></TD></TR><TR><TD colSpan=3><TABLE width=100% BORDER=0 CELLSPACING=0 CELLPADDING=0><TR><TD width=100% align="center"><table border="0" width=100%  cellpadding="0" cellspacing="0"><tr><td colSpan=3><center>
+
+
+<div id="div_prompt">
+	
+	
+</div>
+<div id="div_title">
+	<div class="sa_title">Recording Management</div>
+	<div class="TblContentFont1" style="text-align: left; display: block">Manage recordings, including reassignment and deletion. Max of 1000 search results returned at one time.</div>
+</div> 
+<form name="NBRManageForm" method="post" action="/wbxadmin/nbrmanage.do">
+<input type="hidden" name="siteurl" value="cloudflyers.my">
+
+<div id="div_search" class="TblContentFont1">
+	<div class="nbr_div" align="left">
+		<label>
+			<input type="radio" id="radio_record" name="status" value="0">
+        	Recordings
+	   	</label>
+	   	<img src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/img/1x1.gif?rnd=1" height="20" width="1" border="0">
+	   	<img src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/img/1x1.gif?rnd=1" height="20" width="1" border="0">
+	   	<label>                            
+         	<input type="radio" id="radio_trash" name="status" value="1">
+         	Trash
+    	</label>
+	</div>
+	<div id = "select_createtime" class="nbr_div" align="left">
+		<label class="nbr_label">Date Created:</label>
+		<input type="text" id="input_createdStart" class="nbr_input_date" readonly>
+		<span>to</span>
+		<input type="text" id="input_createdEnd" class="nbr_input_date" readonly>
+	</div>
+	<div id = "select_accesstime" class="nbr_div" align="left">
+		<label class="nbr_label">Last Accessed:</label>
+		<input type="text" id="input_accessedStart" class="nbr_input_date" readonly>
+		<img src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/img/nbrmanage/reset.png?ver=730581589"
+				class="nbr_resetdate_icon"
+				id="accessedStartIcon" alt='Reset' title='Reset' />
+		<span>to</span>
+		<input type="text" id="input_accessedEnd" class="nbr_input_date" readonly>
+		<img src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/img/nbrmanage/reset.png?ver=730581589"
+				class="nbr_resetdate_icon"
+				id="accessedEndIcon" alt='Reset' title='Reset' />
+		<span>(optional)</span>
+	</div>
+	<div id = "select_name" class="nbr_div" align="left">
+		<label class="nbr_label">Name:</label>
+		<input type="text" id="input_nbrname" maxlength="64" class="nbr_input" >
+		<span>(optional)</span>
+	</div>
+	<div id = "select_filesize" class="nbr_div" align="left">
+		<label class="nbr_label">File Size:</label>
+		<input type="text" id="input_minFileSize" maxlength="10" class="nbr_input_num">
+		<span class="space">to</span>
+		<input type="text" id="input_maxFileSize" maxlength="10" class="nbr_input_num">
+		<span class="space">MB</span>
+		<span class="space">(optional)</span>
+	</div>
+	<div id = "select_owner" class="nbr_div" align="left">
+		<label class="nbr_label">Owner:</label>
+		<input type="text" id="input_owner" maxlength="64" class="nbr_input" >
+		<span>(optional)</span>
+	</div>
+</div>
+<div id="div_search_btn" class="TblContentFont1">
+	<div id = "select_btn" class="nbr_div_btn" align="left">
+		<input type="button" name="search" value='Search' onclick="doSearch();" class="nbr_btn">
+		<input type="button" name="reset" value='Reset' onclick="resetForm();" class="nbr_btn_default">
+	</div>
+</div>
+<input type="hidden" name="createdStart" value="2020/12/21">
+<input type="hidden" name="createdEnd" value="2021/01/20">
+<input type="hidden" name="accessedStart" value="">
+<input type="hidden" name="accessedEnd" value="">
+<input type="hidden" name="owner" value="">
+<input type="hidden" name="ownerOfTrash" value="">
+<input type="hidden" name="recordName" value="">
+<input type="hidden" name="recordNameOfTrash" value="">
+<input type="hidden" name="minFileSize" value="">
+<input type="hidden" name="maxFileSize" value="">
+<input type="hidden" name="minFileSizeOfTrash" value="">
+<input type="hidden" name="maxFileSizeOfTrash" value="">
+<input type="hidden" name="action" value="">
+<input type="hidden" name="pageCount" value="1">
+<input type="hidden" name="pageNo" value="0">
+<input type="hidden" name="selectedIds" value="">
+<input type="hidden" name="orderBy" value="">
+<input type="hidden" name="orderType" value="">
+<input type="hidden" name="newUserId" value="">
+<input type="hidden" name="CSRF" value="68e1c953-9d99-48cb-8f85-52d71795625b" />
+</form>
+<div id="div_table_des" class="nbr_div_title" align="left">
+	<div class="nbr_div_table">
+       <div class="nbr_div_table_cell">
+       		<label class="nbr_title_label">
+				Recordings
+			</label>
+     		<span class="nbr_count_label">
+				
+					1
+				
+				
+     		</span>
+        </div>
+       <div style="display:table-cell">
+     
+       </div>
+       <div class="nbr_div_table_cell" style="text-align:right;">
+      		
+      			
+				<div class="nbr_div_summary_msg">5 GB available of 5 GB</div>
+				
+			
+			
+        </div>
+    </div>
+</div>
+<div id="div_table_btn">
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#eeeeee" class="nbr_table">
+ 		<tbody>
+ 			<tr>
+ 				<td width="50%" align="left">
+ 					
+						<input id="btn_reassign" type="button" class="nbr_btn_default" value='Reassign'>
+				    	<input id="btn_toTrash" type="button" class="nbr_btn_default" value='Move to Trash'>
+				    	<!-- 
+				    	<input id="btn_exportAll" type="button" class="nbr_btn" value='Export All'>
+				    	-->
+				    
+					
+				</td>
+				<td width="50%">
+					<table width="100%" cellpadding="1" cellspacing="1" border="0"><tr><TD width="100%" align="right"><FONT  Face="Arial,Helvetica,sans-serif" SIZE="2" Color="#000000">&nbsp;Page:&nbsp;<b>1</b>&nbsp</FONT></TD></tr></table>
+
+				</td>	
+			</tr>
+ 		</tbody>
+ 	</table>
+</div>
+<div id="div_table_data">
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" class="sa_table nbr_list_table">
+ 		<tbody>	 
+			<tr class="nbr_table_head">
+				<td nowrap width="5%" class="nbr_checkbox" align="left">
+					<input type="checkbox" class="selectAll" onclick="SelectAll()"/></td>                    	
+				<td nowrap width="15%" class="nbr_text" align="left" title="Name">
+				<a href="javascript:sortField('RECORDNAME')" style="text-decoration:none;color:#000000;">
+				Name
+				
+				</a>
+			</td>
+			<td nowrap width="8%" class="nbr_text" align="left" title="File Size">
+				<a href="javascript:sortField('FILESIZE')" style="text-decoration:none;color:#000000;">
+				File Size
+				
+				</a>
+			</td>
+			<td nowrap width="8%" class="nbr_text" align="left" title="Duration">
+				<a href="javascript:sortField('DURATION')" style="text-decoration:none;color:#000000;">
+				Duration
+				
+				</a>
+			</td>
+			<td nowrap width="6%" class="nbr_text" align="left" title="Service">
+				<a href="javascript:sortField('SERVICETYPE')" style="text-decoration:none;color:#000000;">
+				Service
+				
+				</a>
+			</td>
+			<td nowrap width="12%" class="nbr_text" align="left" title="Owner">
+				<a href="javascript:sortField('Owner')" style="text-decoration:none;color:#000000;">
+				Owner
+				
+				</a>
+			</td>
+			<td nowrap width="10%" class="nbr_text" align="left" title="Encrypted">
+				Encrypted
+			</td>
+			<td nowrap width="14%" class="nbr_text" align="left">
+				<a href="javascript:sortField('CREATETIME')" style="text-decoration:none;color:#000000;">
+				Date Created
+				
+				</a>
+			</td>
+			<td nowrap width="14%" class="nbr_text" align="left" title="Last Accessed">
+				<a href="javascript:sortField('ACCESSTIME')" style="text-decoration:none;color:#000000;">
+				Last Accessed
+				
+				</a>
+			</td>
+			<td nowrap width="8%" class="nbr_text" align="left">
+				Actions
+			</td>
+		</tr>
+	  
+		 <tr id="tr_207981212 " class="TblContentFont2" >	  		 
+		 	<td width="5%" class="nbr_checkbox"  align="left">
+				<input type="checkbox" class="selectSub" value="207981212" onclick="SelectSub()"/>
+			</td>
+
+			<td width="15%" class="nbr_text" align="left" title="First Meeting">
+				First Meeting
+			</td>
+				
+			<td width="8%" class="nbr_text"  align="left" title="262.78MB">
+				262.78MB
+			</td>
+				
+			<td width="8%" class="nbr_text"  align="left" title="2 hours 17 minutes">
+				2 hours 17 minutes
+			</td>
+			
+			<td width="6%" class="nbr_text"  align="left" title="Meetings">
+				Meetings
+			</td>
+								
+			<td width="12%" class="nbr_text"  align="left" title="cloudflyers2021&#64;gmail.com">
+				cloudflyers2021&#64;gmail.com
+			</td>
+			
+			<td width="10%" class="nbr_text"  align="left" title="Yes">
+				Yes
+			</td>
+				
+			<td width="14%" class="nbr_text" align="left" title="1&#47;18&#47;21 4&#58;45 pm">
+				1&#47;18&#47;21 4&#58;45 pm
+			</td>
+				
+			<td width="14%" class="nbr_text"  align="left" title="1&#47;20&#47;21 8&#58;36 am">
+				1&#47;20&#47;21 8&#58;36 am
+			</td>
+			
+			<td width="8%" class="nbr_text"  align="left">
+				
+				
+				<a id="act_totrash" class="nbr_table_icon_a" href="javascript:doToTrash(207981212)">
+					<img src="https://cloudflyers.my.webex.com/wbxadmin/siteadmin/html/img/nbrmanage/trash.png?ver=784166569"
+							class="nbr_table_icon"
+							alt='Move to Trash' 
+							title='Move to Trash' />
+				</a>
+				
+				
+			</td>	
+		</tr>
+			
+     	</tbody>
+	</table>
+</div>
+<div id="div_table_btn">
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#eeeeee" class="nbr_table">
+ 		<tbody> 
+ 			<tr>
+ 				<td width="50%" align="left">
+ 					
+						<input id="footer_btn_reassign" type="button" class="nbr_btn_default" value='Reassign'>
+				    	<input id="footer_btn_toTrash" type="button" class="nbr_btn_default" value='Move to Trash'>
+				    	<!--
+				    	<input id="footer_btn_exportAll" type="button" class="nbr_btn" value='Export All'>
+				    	-->
+				    
+					
+				 </td>
+				 <td width="50%">
+					<table width="100%" cellpadding="1" cellspacing="1" border="0"><tr><TD width="100%" align="right"><FONT  Face="Arial,Helvetica,sans-serif" SIZE="2" Color="#000000">&nbsp;Page:&nbsp;<b>1</b>&nbsp</FONT></TD></tr></table>
+
+				 </td>
+			</tr>
+ 		</tbody>
+ 	</table>
+</div>
+<div id="nbr_dialog" class="nbr_dialog_div">
+	<div id="dlg_topic" class="nbr_dlg_topic"></div>
+	<div id="dlg_msg" class="nbr_dlg_msg"></div>
+	<div id="dlg_msg1" class="nbr_dlg_msg"></div>
+	<div id="dlg_btn" class="nbr_dlg_btn">
+		<input id="nbr_dlg_btn_confirm" type="button" class="nbr_dlg_btn_success">
+		<input id="nbr_dlg_btn_ok" type="button" class="nbr_dlg_btn_success" value='OK'>
+		<input id="nbr_dlg_btn_cancel" type="button" class="nbr_dlg_btn_default" value='Cancel'>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>.brand_footer div{display:block}</style>
+<table align="center" width="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" class="TblBgColor" style="display:none;" >
+<tr>
+	<td><br><br><br></td>
+	<td><br><br><br></td>
+	<td><br><br><br></td>
+	<td><br><br><br></td>
+
+</tr>
+
+<tr>
+	<td align="center">
+	</td>
+</tr>
+
+<tr>
+
+	<td align="center" class="brand_footer">
+
+	</td>
+</tr>
+
+<TR><TD align="middle" colspan="4"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<TR>
+<TD valign="bottom" align="right" class="t-footer" style="font-size:12px">
+	<font face="Verdana, Arial,Helvetica, sans-serif">
+		&copy;
+		2021
+		Cisco and/or its affiliates.&nbsp;All rights reserved.&nbsp;
+		<a href="https://www.cisco.com/c/en/us/about/legal/privacy.html" target="new">
+		Privacy Statement</a>&nbsp;|&nbsp;<a href="https://www.cisco.com/c/en/us/products/universal-cloud-agreement.html" target="new">Terms of Service
+		</a>
+	</font>
+	
+</TD>
+</TR>
+</table></TD></TR></table>
+
+</body>
+<script language="javascript">
+	window.onload = function() {
+		
+		i18nStrs.defaultMinFileSize="Min";
+		i18nStrs.defaultMaxFileSize="Max";
+		i18nStrs.defaultDate="Choose a day";
+		i18nStrs.dlgCancelBtn="Cancel";
+		i18nStrs.toTrashDlgTitle="Move Recordings to Trash";
+		i18nStrs.toTrashDlgMsg1="The selected recordings will be moved to trash and immediately become inaccessible to users. Do you want to continue?";
+		i18nStrs.toTrashDlgMsg2="All recordings in trash will be available for recovery for the next 30 days. Owners will not be able to restore recordings moved to trash.";
+		i18nStrs.icontoTrashDlgTitle="Move Recording to Trash";
+		i18nStrs.icontoTrashDlgMsg1="The selected recording will be moved to trash and immediately become inaccessible to user. Do you want to continue?";
+		i18nStrs.icontoTrashDlgMsg2="All recordings in trash will be available for recovery for the next 30 days. Owners will not be able to restore recordings moved to trash.";
+		i18nStrs.toTrashDlgBtn="Move to Trash";
+		i18nStrs.purgeDlgTitle="Delete Recordings";
+		i18nStrs.purgeDlgMsg1="The selected recordings will be permanently deleted. Do you want to continue?";
+		i18nStrs.purgeDlgMsg2="After deletion, you will not be able to recover the recordings.";
+		i18nStrs.iconPurgeDlgTitle="Delete Recording";
+		i18nStrs.iconPurgeDlgMsg1="The selected recording will be permanently deleted. Do you want to continue?";
+		i18nStrs.iconPurgeDlgMsg2="After deletion, you will not be able to recover the recording.";
+		i18nStrs.purgeDlgBtn="Delete";
+		i18nStrs.restoreDlgTitle="Restore Recordings";
+		i18nStrs.restoreDlgMsg="The selected recordings will be restored. Do you want to continue?";
+		i18nStrs.reassignDlgMultiTitle="Reassign Recordings";
+		i18nStrs.reassignDlgMultiMsg="The selected recordings will be reassigned to <##0##>. Do you want to continue?";
+		i18nStrs.reassignDlgTitle="Reassign Recording";
+		i18nStrs.reassignDlgMsg="The selected recording will be reassigned to <##0##>. Do you want to continue?";
+		i18nStrs.iconRestoreDlgTitle="Restore Recording";
+		i18nStrs.iconRestoreDlgMsg="The selected recording will be restored. Do you want to continue?";
+		i18nStrs.restoreDlgBtn="Restore";
+		i18nStrs.reassignDlgBtn="Reassign";
+		i18nStrs.emptyDlgTitle="Empty Trash";
+		i18nStrs.emptyDlgMsg1="All recordings in trash will be permanently deleted. Do you want to continue? ";
+		i18nStrs.emptyDlgMsg2="After deletion, you will not be able to recover the recordings. ";
+		i18nStrs.emptyDlgBtn="Empty Trash";
+		
+		i18nStrs.invalidSizeDlgTitle="Invalid File Size Value";
+		i18nStrs.invalidSizeDlgmsg="File Size must be a positive, numeric value.";
+		i18nStrs.invalidSizeDlgmsg_scope="The maximum size should not be less than the minimum size.";
+		i18nStrs.noSelectedDlgTitle="No Recordings Selected";
+		i18nStrs.noSelectedOfTrashDlgmsg="Select at least one recording to move to trash.";
+		i18nStrs.noSelectedOfRestoreDlgmsg="Select at least one recording to restore.";
+		i18nStrs.noSelectedOfDeleteDlgmsg="Select at least one recording to delete.";
+		i18nStrs.noSelectedOfReassignDlgmsg="Select at least one recording to reassign.";
+
+		i18nStrs.invalidDateDlgTitle="Invalid Date Value";
+		i18nStrs.invalidDateDlgmsg_scope="End date should not occur before start date.";
+		
+		var siteurl = 'cloudflyers.my';
+		selectedUserUrl = "https://cloudflyers.my.webex.com/wbxadmin/webcomponents/widget/reassign/selectUser.do?&siteurl=cloudflyers.my";
+		
+		if(NBRManageUI){
+			var data = {
+				status : '0',
+				minFileSize : '',
+				minFileSizeOfTrash : '',
+				maxFileSize : '',
+				maxFileSizeOfTrash : '',
+				owner : '',
+				ownerOfTrash : '',
+				recordName : '',
+				recordNameOfTrash : '',
+				createdStart : '2020\x2f12\x2f21',
+				createdEnd : '2021\x2f01\x2f20',
+				accessedStart : '',
+				accessedEnd : '',
+				promptType : '0',
+				isAdmin : 'true',
+				errorMsg : '',
+				successMsg : 'null',
+				languageId : '1'
+			}
+			NBRManageUI.init(data);
+		}	
+	}
+</script>
+</html>

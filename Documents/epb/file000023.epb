@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v3">
+  <assemblyIdentity name="Microsoft-Windows-Client-Desktop-Required-Package0410" version="10.0.19041.746" processorArchitecture="amd64" language="neutral" publicKeyToken="31bf3856ad364e35" buildType="release" />
+  <package identifier="Microsoft-Windows-Client-Desktop-Required-Package0410" releaseType="Feature Pack">
+    <update name="C13189BCC29C3CDA667A6D72611682BEA5E954CEEB1EA43538BAD695F884374E">
+      <component>
+        <assemblyIdentity name="microsoft-windows-client-desktop-required-deployment04100" version="10.0.19041.746" processorArchitecture="amd64" language="neutral" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+    <update name="FB49C0F94C3CB1B5704D595748A242009A903BA533A2578CC6FAC193EBC4ADD1" restart="required">
+      <driver inf="usbser.inf" ranking="normal">
+        <assemblyIdentity name="dual_usbser.inf" version="10.0.19041.1" processorArchitecture="amd64" language="neutral" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" type="dualModeDriver" />
+      </driver>
+    </update>
+    <update name="36d30aa98825cca987f48d2ddef31779">
+      <package integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Client-Desktop-Required-Package041020" version="10.0.19041.746" processorArchitecture="amd64" language="neutral" publicKeyToken="31bf3856ad364e35" buildType="release" />
+      </package>
+    </update>
+    <update name="7b26918f358913a6e274b8317c888720">
+      <package integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Client-Desktop-Required-Package041021" version="10.0.19041.746" processorArchitecture="amd64" language="neutral" publicKeyToken="31bf3856ad364e35" buildType="release" />
+      </package>
+    </update>
+  </package>
+</assembly>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v3">
+  <assemblyIdentity name="Microsoft-Windows-Server-Features-Package0410" version="10.0.19041.662" processorArchitecture="amd64" language="zh-CN" publicKeyToken="31bf3856ad364e35" buildType="release" />
+  <package identifier="Microsoft-Windows-Server-Features-Package0410" releaseType="Language Pack">
+    <update name="AC7B252365363BCBD93413C83F4A2A33B602A23777BD0D1406945EF17A42DE08">
+      <component>
+        <assemblyIdentity name="microsoft-windows-server-features-deployment04100" version="10.0.19041.662" processorArchitecture="amd64" language="zh-CN" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+  </package>
+</assembly>

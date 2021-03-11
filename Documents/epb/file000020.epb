@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="CloudCore-Edition-AzureComputeHost-Package" version="10.0.19041.662" processorArchitecture="amd64" language="zh-CN" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="CloudCore-Edition-AzureComputeHost-zh-CN" releaseType="Language Pack">
+    <parent disposition="detect">
+      <assemblyIdentity name="CloudCore-Edition-AzureComputeHost-Package" version="10.0.19041.662" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <update name="3a9979723f00504140c5cbf97f3271bc">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="CloudCore-Feature-Guest-Package" version="10.0.19041.1" processorArchitecture="amd64" language="zh-CN" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="88f3a157881e4c45604ce579c492b94e">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="CloudCore-Feature-HyperV-Package" version="10.0.19041.662" processorArchitecture="amd64" language="zh-CN" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+  </package>
+</assembly>

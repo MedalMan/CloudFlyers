@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="$(resourceString.description)" displayName="$(resourceString.displayName)" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." company="Microsoft" creationTimeStamp="2020-09-26T09:36:56" lastUpdateTimeStamp="2020-09-26T09:36:56" buildFilter="">
+  <assemblyIdentity name="Microsoft-OneCore-UpdatePolicy-Deployment-LanguagePack" version="10.0.19041.546" processorArchitecture="amd64" language="nb-NO" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <dependency discoverable="yes">
+    <dependentAssembly dependencyType="install">
+      <assemblyIdentity name="Microsoft-Windows-UpdatePolicy.Resources" version="10.0.19041.546" processorArchitecture="amd64" language="nb-NO" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <deployment xmlns="urn:schemas-microsoft-com:asm.v3" />
+</assembly>

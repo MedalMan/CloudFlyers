@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+         xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+         xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10"
+         xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities">
+  <Identity Name="Microsoft.MicrosoftEdge.Stable" Version="87.0.664.75" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="12.0.0.0"/>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="12.0.0.0"/>
+  </Dependencies>
+  <Properties>
+    <DisplayName>Microsoft Edge</DisplayName>
+    <Description>Microsoft Edge Browser</Description>
+    <Logo>Logo.png</Logo>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <uap10:AllowExternalContent>true</uap10:AllowExternalContent>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+  <Applications>
+    <Application Id="App"
+        Executable="87.0.664.75\identity_helper.exe"
+        uap10:RuntimeBehavior="win32App"
+        uap10:TrustLevel="mediumIL">
+      <uap:VisualElements AppListEntry="none"
+                          DisplayName="Microsoft Edge"
+                          Description="Microsoft Edge Browser"
+                          BackgroundColor="#777777"
+                          Square150x150Logo="Logo.png"
+                          Square44x44Logo="SmallLogo.png">
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Extensions>
+    <uap10:Extension Category="windows.hostRuntime"
+                     Executable="pwahelper.exe"
+                     uap10:RuntimeBehavior="win32App"
+                     uap10:TrustLevel="mediumIL">
+      <uap10:HostRuntime Id="PWA"/>
+    </uap10:Extension>
+  </Extensions>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust"/>
+    <rescap:Capability Name="packageManagement"/>
+    <rescap:Capability Name="unvirtualizedResources"/>
+  </Capabilities>
+</Package>

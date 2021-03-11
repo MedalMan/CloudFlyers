@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="ms" Language="1086" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">Tetap [WixBundleName]</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">Sama-sama</String>
+  <String Id="InstallMessage">Tetap akan pasang [WixBundleName] pada komputer. Klik pasang untuk teruskan, Pilihan bagi tetap direktori atau tutup untuk keluar.</String>
+  <String Id="InstallVersion">Versi [WixBundleVersion]</String>
+  <String Id="WelcomeText">Terima kasih kerana pilih Disk Drill, teruskan pemasangan?</String>
+
+  <String Id="ConfirmCancelMessage">Anda pasti ingin batalkan?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">Versi sebelum</String>
+  <String Id="HelpHeader">Bantu tetap</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;Tutup</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;lsyarat lesen&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">Saya &amp;setuju dengan syarat lesen</String>
+  <String Id="InstallOptionsButton">&amp;Pilihan</String>
+  <String Id="InstallInstallButton">&amp;Pasang</String>
+  <String Id="InstallCloseButton">&amp;Tutup</String>
+  <String Id="OptionsHeader">Pilih Tetapan</String>
+  <String Id="OptionsLocationLabel">Lokasi pasang:</String>
+  <String Id="OptionsBrowseButton">&amp;Layari</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Batal</String>
+  <String Id="ProgressHeader">Perkembangan</String>
+  <String Id="ProgressLabel">Diproses:</String>
+  <String Id="OverallProgressPackageText">Inisialisasi…</String>
+  <String Id="ProgressCancelButton">&amp;Batal</String>
+  <String Id="ModifyHeader">Anda kini boleh ubahsuai tetapan.</String>
+  <String Id="ModifyRepairButton">&amp;Baiki</String>
+  <String Id="ModifyUninstallButton">&amp;Nyahpasang</String>
+  <String Id="ModifyCloseButton">&amp;Tutup</String>
+  <String Id="SuccessRepairHeader">Berjaya dibaiki</String>
+  <String Id="SuccessUninstallHeader">Berjaya dinyahpasang</String>
+  <String Id="SuccessInstallHeader">Berjaya dipasang</String> 
+  <String Id="SuccessHeader">Berjaya ditetapkan</String>	
+  <String Id="SuccessLaunchButton">&amp;Lancar</String>
+  <String Id="SuccessRestartText">Anda mesti mula semula komputer sebelum boleh guna perisian.</String>
+  <String Id="SuccessRestartButton">&amp;Mula lagi</String>
+  <String Id="SuccessCloseButton">&amp;Tutup</String>
+  <String Id="FailureHeader">Tetap Gagal</String>
+  <String Id="FailureInstallHeader">Tetap Gagal</String>
+  <String Id="FailureUninstallHeader">Nyahpasang Gagal</String>
+  <String Id="FailureRepairHeader">Baiki Gagal</String> 
+  <String Id="FailureHyperlinkLogText">Satu atau lebih isu gagalkan tetapan. Sila baiki isu dan cuba tetapkan semula. Bagi maklumat lanjut lihat &lt;a href="#"&gt;lfail log&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">Mesti mula semula komputer bagi selesaikan pengembalian perisian.</String>
+  <String Id="FailureRestartButton">&amp;Mula lagi</String>
+  <String Id="FailureCloseButton">&amp;Tutup</String>
+  <String Id="FilesInUseHeader">Fail Diguna</String>
+  <String Id="FilesInUseLabel">Aplikasi berikut mengunakan fail yang perlu dikemaskini:</String>
+  <String Id="FilesInUseCloseRadioButton">Tutup &amp;aplikasi dan cuba mula semula.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;Jangan tutup aplikasi. Perlu boot semula.</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;Batal</String>
+  <String Id="ErrorFailNoActionReboot">Tiada tindakan sebab sistem perlu boot semula.</String>
+  <String Id="ShareAnalytics">Kongsi info app tanpa nama dgn CleverFiles</String>
+</WixLocalization>

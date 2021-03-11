@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BlockMap xmlns="http://schemas.microsoft.com/appx/2010/blockmap" HashMethod="http://www.w3.org/2001/04/xmlenc#sha256"><File Name="SmallLogo.png" Size="15858" LfhSize="43"><Block Hash="CEei1LBjIAMvkLxoLS80jDYlMZ8tAEZWie3megElWxU="/></File><File Name="Logo.png" Size="32731" LfhSize="38"><Block Hash="YL7k84CA6+qC9Ng+sxk+RHesTjGMKEEdAOdnXl+6qz0="/></File><File Name="AppxManifest.xml" Size="2249" LfhSize="46"><Block Hash="RColmdjdCnSDsGjZmGTJ3rGUYXjZQrss6EEGpB+cTEk=" Size="779"/></File></BlockMap>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="hi" Language="1081" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] सेटअप</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">स्वागत है</String>
+  <String Id="InstallMessage">सेटअप कंप्यूटर पर [WixBundleName] स्थापित कर देगा। जारी रखने के लिए इंस्टॉल पर, स्थापित डायरेक्टरी सेट करने के लिए विकल्प पर, या बंद करने के लिए बाहर निकले पर क्लिक करें।</String>
+  <String Id="InstallVersion">संस्करण [WixBundleVersion]</String>
+  <String Id="WelcomeText">Disk Drill चुनने के लिए धन्यवाद, स्थापन शुरू करें?</String>
+
+  <String Id="ConfirmCancelMessage">क्या आप रद्द करना चाहते हैं?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">पिछला संस्करण</String>
+  <String Id="HelpHeader">सेटअप सहायता</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;बंद करें</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;लाइसेंस की शर्तें&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">मैं &amp;लाइसेंस के नियम और शर्तों को स्वीकार करता हूँ</String>
+  <String Id="InstallOptionsButton">&amp;विकल्प</String>
+  <String Id="InstallInstallButton">&amp;इंस्टॉल</String>
+  <String Id="InstallCloseButton">&amp;बंद करें</String>
+  <String Id="OptionsHeader">सेटअप विकल्प</String>
+  <String Id="OptionsLocationLabel">इंस्टॉल स्थिति:</String>
+  <String Id="OptionsBrowseButton">&amp;ब्राउज</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;रद्द करें</String>
+  <String Id="ProgressHeader">सेटअप प्रगति</String>
+  <String Id="ProgressLabel">प्रॉसेसिंग:</String>
+  <String Id="OverallProgressPackageText">शुरू...</String>
+  <String Id="ProgressCancelButton">&amp;रद्द करें</String>
+  <String Id="ModifyHeader">अब आप अपना सेटअप बदल सकते हैं।</String>
+  <String Id="ModifyRepairButton">&amp;मरम्मत</String>
+  <String Id="ModifyUninstallButton">&amp;अनइंस्टॉल</String>
+  <String Id="ModifyCloseButton">&amp;बंद करें</String>
+  <String Id="SuccessRepairHeader">मरम्मत सफलतापूर्वक पूरा हुआ</String>
+  <String Id="SuccessUninstallHeader">अनइंस्टॉल सफलतापूर्वक पूरा हुआ</String>
+  <String Id="SuccessInstallHeader">स्थापन सफलतापूर्वक पूरा हुआ</String> 
+  <String Id="SuccessHeader">सेटअप सफल</String>	
+  <String Id="SuccessLaunchButton">&amp;शुरू करें</String>
+  <String Id="SuccessRestartText">सॉफ्टवेयर का प्रयोग करने से पहले आपको अपना कंप्यूटर रीस्टार्ट करना होगा।</String>
+  <String Id="SuccessRestartButton">&amp;रीस्टार्ट करें</String>
+  <String Id="SuccessCloseButton">&amp;बंद करें</String>
+  <String Id="FailureHeader">सेटअप विफल</String>
+  <String Id="FailureInstallHeader">सेटअप विफल</String>
+  <String Id="FailureUninstallHeader">अनइंस्टॉल विफल</String>
+  <String Id="FailureRepairHeader">मरम्मत विफल</String> 
+  <String Id="FailureHyperlinkLogText">कुछ समस्याओं के कारण सेटअप विफल हो गया। समस्याओं को ठीक करें और दोबारा सेटअप करें। ज्यादा जानकारी के लिए &lt;a href="#"&gt;लॉग फाइल&lt;/a&gt; देखें।</String>
+  <String Id="FailureRestartText">सॉफ्टवेयर का रोलबैक पूरा करने के लिए आपको कंप्यूटर रीस्टार्ट करना होगा।</String>
+  <String Id="FailureRestartButton">&amp;रीस्टार्ट करें</String>
+  <String Id="FailureCloseButton">&amp;बंद करें</String>
+  <String Id="FilesInUseHeader">प्रयोग में फाइल</String>
+  <String Id="FilesInUseLabel">निम्नलिखित एप्लीकेशन उन फाइलों का प्रयोग कर रहे हैं जिन्हें अपडेट करना है:</String>
+  <String Id="FilesInUseCloseRadioButton">&amp;एप्लीकेशन बंद करें और उन्हें दोबारा शुरू करने की कोशिश करें।</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;एप्लीकेशन ना बंद करें। रिबूट की जरुरत होगी।</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;रद्द करें</String>
+  <String Id="ErrorFailNoActionReboot">कोई गतिविधि नहीं की गयी क्योंकि सिस्टम रिबूट की जरुरत है।</String>
+  <String Id="ShareAnalytics">CleverFiles के साथ अनाम ऐप की जानकारी साझा करें</String>
+</WixLocalization>

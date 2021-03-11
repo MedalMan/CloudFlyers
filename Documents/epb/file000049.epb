@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v3">
+  <assemblyIdentity name="Microsoft-Windows-Server-Features-Package00" version="10.0.19041.662" processorArchitecture="amd64" language="fi-FI" publicKeyToken="31bf3856ad364e35" buildType="release" />
+  <package identifier="Microsoft-Windows-Server-Features-Package00" releaseType="Language Pack">
+    <update name="d9bfe63e57ed2e52a7cc1031f4f2cc5b">
+      <component>
+        <assemblyIdentity name="microsoft-windows-server-features-deployment000" version="10.0.19041.662" processorArchitecture="amd64" language="fi-FI" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+    <update name="F087A38E62DD34F0375EDE10E71A780BB2AA842BB952EBA271A23B69221CE8C2">
+      <component>
+        <assemblyIdentity name="kdnic.inf-LanguagePack" version="10.0.19041.1" processorArchitecture="amd64" language="fi-FI" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+    <update name="FA234A23CBAE518C72A40AF465DB1A5CE1C7E3E7C6486CBEE2EE4AC1906CE488">
+      <component>
+        <assemblyIdentity name="ndisuio.inf-LanguagePack" version="10.0.19041.1" processorArchitecture="amd64" language="fi-FI" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+    <update name="C6E9298B7E5B97A42CE9018C30FABB72C7B191D2ADCB751A1E7F4D26F0EF4B60">
+      <component>
+        <assemblyIdentity name="Microsoft-Windows-WindowsFoundation-LanguagePack" version="10.0.19041.1" processorArchitecture="amd64" language="fi-FI" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+  </package>
+</assembly>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="zh" Language="4" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] 安装</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">欢迎</String>
+  <String Id="InstallMessage">安装向导会将 [WixBundleName]安装到您的计算机。点击安装继续，您可以选择直接安装或关闭退出。</String>
+  <String Id="InstallVersion">版本[WixBundleVersion]</String>
+  <String Id="WelcomeText">感谢您选择Disk Drill，继续安装？</String>
+
+  <String Id="ConfirmCancelMessage">您确定想要取消吗？</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">上一版本</String>
+  <String Id="HelpHeader">安装帮助</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;关闭</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;许可条款&lt;/a&gt;。</String>
+  <String Id="InstallAcceptCheckbox">我&amp;同意许可条款和条件</String>
+  <String Id="InstallOptionsButton">&amp;选项</String>
+  <String Id="InstallInstallButton">&amp;安装</String>
+  <String Id="InstallCloseButton">&amp;关闭</String>
+  <String Id="OptionsHeader">安装选项</String>
+  <String Id="OptionsLocationLabel">安装位置:</String>
+  <String Id="OptionsBrowseButton">&amp;浏览</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;取消</String>
+  <String Id="ProgressHeader">安装进程</String>
+  <String Id="ProgressLabel">处理中:</String>
+  <String Id="OverallProgressPackageText">初始化...</String>
+  <String Id="ProgressCancelButton">&amp;取消</String>
+  <String Id="ModifyHeader">您现在可以调整您的安装了。</String>
+  <String Id="ModifyRepairButton">&amp;修复</String>
+  <String Id="ModifyUninstallButton">&amp;卸载</String>
+  <String Id="ModifyCloseButton">&amp;关闭</String>
+  <String Id="SuccessRepairHeader">成功完成修复</String>
+  <String Id="SuccessUninstallHeader">成功完成卸载</String>
+  <String Id="SuccessInstallHeader">成功完成安装</String> 
+  <String Id="SuccessHeader">安装成功</String>	
+  <String Id="SuccessLaunchButton">&amp;启动</String>
+  <String Id="SuccessRestartText">您在使用本软件之前必须重启您的计算机。</String>
+  <String Id="SuccessRestartButton">&amp;重启</String>
+  <String Id="SuccessCloseButton">&amp;关闭</String>
+  <String Id="FailureHeader">安装失败</String>
+  <String Id="FailureInstallHeader">安装失败</String>
+  <String Id="FailureUninstallHeader">卸载失败</String>
+  <String Id="FailureRepairHeader">修复失败</String> 
+  <String Id="FailureHyperlinkLogText">一个或多个问题导致安装失败。请修复相关问题，然后重新安装。欲了解更多信息，请参见&lt;a href="#"&gt;日志文件&lt;/a&gt;。</String>
+  <String Id="FailureRestartText">您必须重启您的计算机来完成软件的回滚。</String>
+  <String Id="FailureRestartButton">&amp;重启</String>
+  <String Id="FailureCloseButton">&amp;关闭</String>
+  <String Id="FilesInUseHeader">文件正在使用</String>
+  <String Id="FilesInUseLabel">以下应用程序正在使用需要更新的文件:</String>
+  <String Id="FilesInUseCloseRadioButton">关闭&amp;应用程序并尝试重启它们。</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;不要关闭应用程序。系统将重新启动。</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;取消</String>
+  <String Id="ErrorFailNoActionReboot">未进行任何操作，系统重新启动。</String>
+  <String Id="ShareAnalytics">与CleverFiles分享匿名应用信息</String>
+</WixLocalization>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="$(resourceString.description)" displayName="$(resourceString.displayName)" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." company="Microsoft" creationTimeStamp="2020-10-08T08:58:51" lastUpdateTimeStamp="2020-10-08T08:58:51" buildFilter="">
+  <assemblyIdentity name="Microsoft-Windows-Editions-PPIPro-Deployment-LanguagePack" version="10.0.19041.572" processorArchitecture="amd64" language="zh-TW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <dependency discoverable="yes">
+    <dependentAssembly dependencyType="install">
+      <assemblyIdentity name="Microsoft-Windows-License-OEM-PPIPro.Resources" version="10.0.19041.572" processorArchitecture="amd64" language="zh-TW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <dependency discoverable="yes">
+    <dependentAssembly dependencyType="install">
+      <assemblyIdentity name="Microsoft-Windows-License-OEM-PPIPro.Resources" version="10.0.19041.572" processorArchitecture="x86" language="zh-TW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <dependency discoverable="yes">
+    <dependentAssembly dependencyType="install">
+      <assemblyIdentity name="Microsoft-Windows-License-Volume-PPIPro.Resources" version="10.0.19041.572" processorArchitecture="amd64" language="zh-TW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <dependency discoverable="yes">
+    <dependentAssembly dependencyType="install">
+      <assemblyIdentity name="Microsoft-Windows-License-Volume-PPIPro.Resources" version="10.0.19041.572" processorArchitecture="x86" language="zh-TW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <deployment xmlns="urn:schemas-microsoft-com:asm.v3" />
+</assembly>

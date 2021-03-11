@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="se" Language="1053" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] Inställningar</String>
+  <String Id="Title">Disk Drill</String>
+  <String Id="InstallHeader">Välkomna</String>
+  <String Id="InstallMessage">Setup installerar [WixBundleName]. Välj Installera för att fortsätta, Alternativ för att välja katalog och Stäng för att avsluta.</String>
+  <String Id="InstallVersion">Version [WixBundleVersion]</String>
+  <String Id="WelcomeText">Tack för att du valt Disk Drill, fortsätt med installation?</String>
+
+  <String Id="ConfirmCancelMessage">Är det säkert att du vill avsluta?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">Tidigare version</String>
+  <String Id="HelpHeader">Setup-Hjälp</String>
+  <String Id="HelpText">/install | /repair | /uninstall | /layout [directory] - installs, repairs, uninstalls or
+   creates a complete local copy of the bundle in directory. Install is the default.
+
+/passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+   no prompts. By default UI and all prompts are displayed.
+
+/norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+/log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;Stäng</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;licens-villkor&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">Jag &amp;godkänner licens-villkoren</String>
+  <String Id="InstallOptionsButton">&amp;Alternativ</String>
+  <String Id="InstallInstallButton">&amp;Installera</String>
+  <String Id="InstallCloseButton">&amp;Stäng</String>
+  <String Id="OptionsHeader">Setup-alternativ</String>
+  <String Id="OptionsLocationLabel">Installations-katalog:</String>
+  <String Id="OptionsBrowseButton">&amp;Bläddra</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Avbryt</String>
+  <String Id="ProgressHeader">Setup-process</String>
+  <String Id="ProgressLabel">Behandlar:</String>
+  <String Id="OverallProgressPackageText">Påbörjar...</String>
+  <String Id="ProgressCancelButton">&amp;Avbryt</String>
+  <String Id="ModifyHeader">Du kan ändra din setup nu.</String>
+  <String Id="ModifyRepairButton">&amp;Reparera</String>
+  <String Id="ModifyUninstallButton">&amp;Avinstallera</String>
+  <String Id="ModifyCloseButton">&amp;Stäng</String>
+  <String Id="SuccessRepairHeader">Reparation lyckades</String>
+  <String Id="SuccessUninstallHeader">Avinstallation genomförd</String>
+  <String Id="SuccessInstallHeader">Installation genomförd</String> 
+  <String Id="SuccessHeader">Setup genomförd</String>	
+  <String Id="SuccessLaunchButton">&amp;Starta</String>
+  <String Id="SuccessRestartText">Du måste starta om datorn innan du kan använda programmet.</String>
+  <String Id="SuccessRestartButton">&amp;Omstart</String>
+  <String Id="SuccessCloseButton">&amp;Stäng</String>
+  <String Id="FailureHeader">Setup misslyckades</String>
+  <String Id="FailureInstallHeader">Setup misslyckades</String>
+  <String Id="FailureUninstallHeader">Avinstallation misslyckades</String>
+  <String Id="FailureRepairHeader">Reparation misslyckades</String> 
+  <String Id="FailureHyperlinkLogText">Ett eller flera fel gjorde att setup misslyckades. Lös felen och försök igen. För mer information, se &lt;a href="#"&gt;loggfilen&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">Du måste starta om datorn för att helt återställa programvaran.</String>
+  <String Id="FailureRestartButton">&amp;Omstart</String>
+  <String Id="FailureCloseButton">&amp;Stäng</String>
+  <String Id="FilesInUseHeader">Använda filer</String>
+  <String Id="FilesInUseLabel">Följande applikationer använder filer som behöver uppdateras:</String>
+  <String Id="FilesInUseCloseRadioButton">Stäng &amp;applikationerna och försök starta om dem.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;Stäng inte applikationerna. Omstart krävs.</String>
+  <String Id="FilesInUseOkButton">&amp;OK</String>
+  <String Id="FilesInUseCancelButton">&amp;Avbryt</String>
+  <String Id="ErrorFailNoActionReboot">Ingen åtgärd utfördes eftersom en omstart krävs.</String>
+  <String Id="ShareAnalytics">Dela anonym appinfo med CleverFiles</String>
+</WixLocalization>
