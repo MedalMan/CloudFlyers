@@ -15,7 +15,7 @@ pipeline{
                 stage('Push Docker Image'){
                         steps{
                             sh 'docker login -u medalman -p Eteyen@1983'
-                            sh 'docker push medalman/mydockerrepo:latest .'
+                            sh 'docker push medalman/mydockerrepo:latest'
                         }
 
                 }
