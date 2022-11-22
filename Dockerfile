@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine 3.16
 
 RUN mkdir -p /home/app
 
